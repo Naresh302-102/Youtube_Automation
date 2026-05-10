@@ -39,3 +39,6 @@ try:
 
     # Play for 1 minute
     time.sleep(60)
+
+finally:
+    driver.quit()
